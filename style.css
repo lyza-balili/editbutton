@@ -203,13 +203,15 @@ a:hover {
 
 /* Skills Section */
 #skills {
-  background: var(--panel);
+  background: #f3e8ff;
   padding: 2rem;
   text-align: center; 
+  color: #4c1d95;
 }
 #skills h2 { 
   color: #6b21a8; 
   margin-bottom: 1.5rem; 
+  font-size: 2rem;
 }
 .skills-list {
   list-style: none; 
@@ -219,7 +221,7 @@ a:hover {
   gap: 1rem;
 }
 .skills-list li {
-  background: f3e8ff; 
+  background: #ede9fe; 
   color:#9333ea;
   padding: 0.6rem 1.2rem;
   border-radius: 999px;
@@ -289,7 +291,18 @@ body.dark a:hover {
 }
 body.dark .btn, body.dark .header-buttons button { 
   background: var(--brand); 
-  color: #fff; }
+  color: #fff; 
+}
+
+body.dark #skills {
+  background: var(--panel);  
+  color: var(--text);      
+}
+
+body.dark #skills h2 {
+  color: var(--brand);       
+}
+
 
 /* Header Buttons */
 .header-buttons { 
