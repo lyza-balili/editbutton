@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lyza Kyth's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-flex">
+      <h1 class="logo">Lyza's Portfolio</h1>
+
+      <nav aria-label="Primary navigation">
+        <ul class="nav">
+          <li><a href="#">Home</a></li> 
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Dark/Light Mode & Edit All Buttons -->
+      <div class="header-buttons">
+        <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
+        <button id="edit-btn">Edit</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="content">
+
+    <!-- Hero Section (acts as Home area) -->
+    <section class="hero editable-section">
+      <div class="container hero-grid">
+        <figure class="profile">
+          <img src="lyza.jpg" alt="Your Photo">
+        </figure>
+        <div class="hero-text">
+          <h2>Hello, I'm Lyza Kyth!</h2>
+          <p class="lead">A passionate web developer who loves clean and modern designs.</p>
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section editable-section">
+      <div class="container">
+        <div class="about-box">
+          <h2 id="about-title">About Me</h2>
+          <p>
+            Hello! I'm <strong>Lyza Kyth Balili</strong>, a passionate
+            <span class="highlight">beginner web developer</span> who loves building
+            clean, modern, and accessible websites.
+          </p>
+          <p>
+            My focus is on <strong>HTML</strong>, <strong>CSS</strong>, and
+            <strong>responsive design</strong>. I enjoy transforming ideas into
+            real projects and continuously learning new skills.
+          </p>
+          <p>
+            Outside of coding, I enjoy exploring design trends, reading
+            tech blogs, and sipping a good cup of coffee ☕.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section editable-section">
+      <div class="container">
+        <h2 id="projects-title">Projects</h2>
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <img src="onlinereservation.png" alt="Project 1 Screenshot">
+            <div class="project-info">
+              <h3>Online Reservation System</h3>
+              <p>An easy-to-use system to book reservations online.</p>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="shop.png" alt="Project 2 Screenshot">
+            <div class="project-info">
+              <h3>Shopping App</h3>
+              <p>A user-friendly app to browse and purchase products online.</p>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="blog.png" alt="Project 3 Screenshot">
+            <div class="project-info">
+              <h3>Blog Design</h3>
+              <p>A modern blog layout focusing on typography and readability.</p>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section editable-section">
+      <div class="container">
+        <h2 id="skills-title">Skills</h2>
+        <ul class="skills-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Responsive Design</li>
+          <li>Git & GitHub</li>
+          <li>Accessibility</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section editable-section">
+      <div class="container">
+        <h2 id="contact-title">Contact</h2>
+        <address>
+          📧 Email: <a href="mailto:lyzakythbalili@gmail.com">lyzakythbalili@gmail.com</a><br />
+          💻 GitHub: <a href="https://github.com/lyza-balili" target="_blank">github.com/lyza-balili</a><br />
+          📍 Location: Butuan City, Philippines
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span id="year"></span> © Lyza Kyth. Built with ❤️ using HTML & CSS.
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
